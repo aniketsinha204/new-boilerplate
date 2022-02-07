@@ -12,7 +12,7 @@ function Login() {
 
     return (
         <>
-            <h1>Login</h1>
+            <h1 className="text-3xl font-bold underline testStyle">Login</h1>
             <input
                 type="email"
                 name="email"
