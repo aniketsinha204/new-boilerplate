@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { createContext, useMemo, useState } from 'react';
-import { userService } from '../Services/UserService';
+import { userService } from '../services/UserService';
 
 interface IAuth {
     token: string;
