@@ -28,6 +28,15 @@ module.exports = {
         'react/jsx-filename-extension': [0, { extensions: ['.js', '.jsx', '.tsx'] }],
         'import/no-unresolved': [0],
         'import/extensions': [0],
+        'react/jsx-fragments': ['off'],
+        'no-console': 'off',
+        'react/destructuring-assignment': 'off',
+        'no-param-reassign': 'off',
+        'no-restricted-globals': 'off',
+        'react/no-array-index-key': 'off',
+        'import/prefer-default-export': 'off',
+        'global-require': 'off',
+        'no-nested-ternary': 'off',
     },
     settings: {
         react: {
