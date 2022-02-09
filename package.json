@@ -27,6 +27,9 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
+        "check-lint": "eslint . --ext ts --ext tsx --ext js",
+        "format": "prettier --write .",
+        "test-all": "yarn check-lint && yarn format",
         "prepare": "husky install"
     },
     "eslintConfig": {
